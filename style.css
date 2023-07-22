@@ -6,13 +6,13 @@
 body{
     width: 100%;
     height: 100%;
-
+    background: #000;
 }
 nav{
     display: flex;
     width: 100%;
     height: 40px;
-    background-color: lightgrey;
+    background-color: #000;
     justify-content: space-between;
 }
 .logo{
@@ -36,14 +36,15 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.1rem;
-    font-family: 'Ubuntu', sans-serif;
-    color: #000;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: bold;
+    color: #00bfa6;
 }
 /* Hero Section Styling */
 .hero_section{
-    padding: 2rem;
+    padding-top: 2rem;
 }
-.slider{
+.slider{  
     position: relative;
     max-width: 65rem;
     margin:0 auto;
@@ -56,6 +57,7 @@ a{
     scroll-behavior: smooth;
 }
 .slider_content img{
+    border-radius: 1.4rem;
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
@@ -77,5 +79,28 @@ a{
     opacity: 0.8rem;
     transition: opacity case 250ms;
 }
-uaidfuapkowero
+/* About section styling */
+.about{
+    display: flex;
+    width: 100%;
+    margin-left: 1rem;
+}
+.about_sidecontent{
+    width: 30%;
+    height: 100vh;
+    background: rgba(255,255,255,0.1);
+    padding: 1rem;
+    color: #fff;
+    font-family: 'Ubuntu',cursive;
 
+}
+.about_sidecontent img{
+    width:100%;
+    height: 40%;
+    border-radius: 0.8rem;
+}
+.about_maincontent{
+    width: 60%;
+    color: #fff;
+    font-family: 'Ubuntu',cursive;
+}
